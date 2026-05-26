@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-const WA_NUMBER = '212665158540';
+const WA_NUMBER = '212539945243';
 const AUTO_MSG = encodeURIComponent(
   'Bonjour Network Deal ! 👋\nJe vous contacte depuis votre site web.\nJe suis intéressé(e) par vos services.\nPouvez-vous me donner plus d\'informations ?'
 );

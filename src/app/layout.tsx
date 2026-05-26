@@ -76,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: 'Network Deal',
               description: 'Agence digitale créative spécialisée en développement web, SEO, marketing digital et visualisation 3D.',
               url: 'https://networkdeal.ma',
-              telephone: '+212665158540',
+              telephone: '+212539945243',
               email: 'networkdealltd21@gmail.com',
               address: {
                 '@type': 'PostalAddress',

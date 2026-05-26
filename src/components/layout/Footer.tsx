@@ -3,7 +3,7 @@ import Logo from '@/components/ui/Logo';
 const footerLinks = {
   Services: ['Développement Web', 'SEO & Référencement', 'Marketing Digital', 'Design 3D', 'Branding & UI/UX'],
   Agence: ['À propos', 'Portfolio', 'Notre Process', 'Carrières', 'Blog'],
-  Contact: ['networkdealltd21@gmail.com', '+212 665-158540', 'Tanger, Maroc', 'networkdeal.ma'],
+  Contact: ['networkdealltd21@gmail.com', '0539945243', 'Tanger, Maroc', 'networkdeal.ma'],
 };
 
 export default function Footer() {
