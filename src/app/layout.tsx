@@ -6,6 +6,8 @@ import Footer from '@/components/layout/Footer';
 import CustomCursor from '@/components/layout/CustomCursor';
 import Loader from '@/components/layout/Loader';
 import ProgressBar from '@/components/layout/ProgressBar';
+import WhatsAppFloat from '@/components/ui/WhatsAppFloat';
+import ScrollToTop from '@/components/ui/ScrollToTop';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -101,6 +103,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         {children}
         <Footer />
+        <WhatsAppFloat />
+        <ScrollToTop />
       </body>
     </html>
   );
