@@ -19,11 +19,12 @@ export default function SectionTitle({
     <div className={center ? 'text-center' : ''}>
       {eyebrow && (
         <div
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase mb-5"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-widest uppercase mb-7"
           style={{
-            background: 'rgba(0, 212, 255, 0.08)',
-            border: '1px solid rgba(0, 212, 255, 0.22)',
+            background: 'rgba(0, 212, 255, 0.07)',
+            border: '1px solid rgba(0, 212, 255, 0.2)',
             color: '#00d4ff',
+            letterSpacing: '0.12em',
           }}
         >
           <span
@@ -35,7 +36,7 @@ export default function SectionTitle({
       )}
 
       <h2
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black leading-[1.05] tracking-tight mb-5"
+        className="text-4xl sm:text-5xl md:text-[56px] lg:text-[64px] font-black leading-[1.02] tracking-tight mb-6"
         style={{ color: 'white' }}
       >
         {title}{' '}
@@ -55,11 +56,12 @@ export default function SectionTitle({
 
       {description && (
         <p
-          className="text-base md:text-lg leading-relaxed max-w-xl"
+          className="text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl"
           style={{
-            color: 'rgba(255,255,255,0.52)',
+            color: 'rgba(255,255,255,0.48)',
             marginLeft: center ? 'auto' : undefined,
             marginRight: center ? 'auto' : undefined,
+            lineHeight: '1.75',
           }}
         >
           {description}
